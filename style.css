@@ -1,0 +1,64 @@
+h2 {
+    font-size: 30px;
+    color: darkred;
+  }
+  
+  #E3 {
+    background-color: brown;
+   
+    text-align: left;
+    width: 600px;
+    height: 20px;
+  }
+  
+  #A3 {
+    background-color: brown;
+   
+    text-align: left;
+    width: 600px;
+    height: 20px;
+  }
+  
+  #D4 {
+    background-color: brown;
+   
+    text-align: left;
+    width: 600px;
+    height: 20px;
+  }
+  
+  #G4 {
+    background-color: GREY;
+   
+    text-align: left;
+    width: 600px;
+    height: 20px;
+  }
+  
+  #B4 {
+    background-color: GREY;
+   
+    text-align: left;
+    width: 600px;
+    height: 20px;
+  }
+  
+  #E5 {
+    background-color: GREY;
+   
+    text-align: left;
+    width: 600px;
+    height: 20px;
+  }
+  
+
+  
+  .efectos {
+    font-size: 30px;
+    text-align: center;
+    width: 60px; /*ancho*/
+    height: 110px; /*alto*/
+    background-color: red;
+  }
+  
+  

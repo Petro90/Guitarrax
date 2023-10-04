@@ -1,0 +1,70 @@
+<html lang="es">
+  <head>
+     <title>Guitarrax</title>
+     <link href="style.css" rel="stylesheet">
+  
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <link rel="stylesheet" href="./style.css">
+<link rel="javascript" href="./main.js">
+
+</head>
+  <header>
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.36/Tone.js"></script>
+  </header>
+
+  <body>
+    <h2>Guitarrax</h2>
+    <p>clickeá sobre la cuerda que quieras que suene</p>
+    
+    <form name="myForm">
+       <div id="myForm">
+         Gain:<select name="Gain">
+         <option value="5">5</option>
+         <option value="10">10</option>
+         <option value="20">20</option>
+         <option value="30">30</option>
+         <option value="40">40</option>
+         <option value="50">50</option>
+         <option value="60">60</option>
+         </select>
+         
+         Volume:<select name="volume">
+         <option value="-20">-20</option>
+         <option value="-10">-10</option>
+         <option value="0">0</option>
+         <option value="10">10</option>
+         <option value="20">20</option>
+         <option value="30">30</option>
+         <option value="40">40</option>
+         
+         </select>
+      </form>
+      </div>
+    
+      <div id="cuerdas">
+        <button id="E3" onclick="tocar6()">E3</button><br>
+        <button id="A3" onclick="tocar5()">A3</button><br>
+        <button id="D4" onclick="tocar4()">D4</button><br>
+        <button id="G4" onclick="tocar3()">G4</button><br>
+        <button id="B4" onclick="tocar2()">B4</button><br>
+        <button id="E5" onclick="tocar1()">E5</button><br>
+        
+        </div>
+      
+   
+    
+      <div id="efectos">
+        <button id=distor>distor</button>
+        <button id=delay>delay</button><br>
+        <button id=tone>tone</button>
+      </div>
+      
+      
+         
+         </body>
+         </html>
+    
